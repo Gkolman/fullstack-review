@@ -23,9 +23,7 @@ const RepoList = (props) => {
       <td> {repo.username}</td>
       <td> {getReadableDate(repo.createdAt)}</td>
       <a href = {repo.repolink} > show me on github </a>
-
       {/* <td> {repo.repolink}</td> */}
-
     </tr>
     )
   })
