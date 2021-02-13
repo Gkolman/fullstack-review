@@ -4,7 +4,8 @@ var bodyParser = require('body-parser');
 var axios = require('axios');
 var gitHelpers = require('../helpers/github.js')
 var dbHelpers =  require('../database/index.js')
-let port = process.env.PORT || 1128;
+var serverPort = 1128;
+let port = process.env.PORT || serverPort;
 
 
 app.use(bodyParser.urlencoded({ extended: false }))
