@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+
 var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/fetcher";
 mongoose.connect(MONGODB_URI);
 
