@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "10.22.0"
   },
   "scripts": {
     "react-dev": "webpack -d --watch",
