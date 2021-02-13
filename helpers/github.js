@@ -1,5 +1,6 @@
 const axios = require('axios');
-const config = require('../config.js');
+// const config = require('../config.js');
+
 
 var getReposByUsername = (username) => {
   let options = {
@@ -7,7 +8,7 @@ var getReposByUsername = (username) => {
     method: 'get',
     headers: {
       'User-Agent': 'request',
-      'Authorization': `token ${config.TOKEN}`
+      'Authorization': `token ${TOKEN}`
     }
   };
   return axios(options)
