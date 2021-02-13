@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "10.22.0"
-  },
+
   "scripts": {
-    "start": "node server/index.js",
-    "build": "webpack -d --watch"
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "start": "node server/index.js"
   },
   "author": "Beth Johnson",
   "license": "ISC",
